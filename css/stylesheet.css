@@ -45,7 +45,7 @@ div#navBar {
 }
 
 .navBar a:visited {
-    background-color: #f50511;
+    /*background-color: #f50511;*/
     color: #ffffff;
 }
 
