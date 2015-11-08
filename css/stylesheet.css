@@ -8,8 +8,6 @@ div#navBar {
     padding: .3em 0 .3em 0;
     width: 100%;
     text-align: center;
-    /*border-bottom: medium dashed blue;*/
-
 
 }
 
@@ -19,6 +17,7 @@ div#navBar {
     text-align: center;
     padding: 0;
     margin: 0;
+    border-bottom: 1px solid #f50511;
 }
 .navBar li {
     font-family: 'Oswald', sans-serif;
@@ -114,24 +113,37 @@ a:active {
      font-family: "Arial Black", Gadget, sans-serif;
      width: 480px;
      min-height: 360px;
-     border: 1px solid #000;
-     /*display: -moz-inline-stack;*/
      display: inline-block;
      vertical-align: top;
      margin: 5px;
-     /*zoom: 1;*/
-     /**display: inline;*/
-     /*_height: 250px;*/
+}
+.bandsGrid{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
 }
 .bandCell{
     text-align: center;
     font-family: "Arial Black", Gadget, sans-serif;
-    width: 300px;
-    min-height: 300px;
-    border: 1px solid #000;
+    /*width: 300px;*/
+    /*min-height: 300px;*/
     display: inline-block;
     vertical-align: top;
     margin: 5px;
+}
+/*replace the 2 cells with grid*/
+.cell {
+    text-align: center;
+    width: 200px;
+    /*min-height: 300px;*/
+    /*border: 1px solid #000;*/
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+.cell ol{
+    text-align: left;
 }
 .bandCell img{
     width:  300px;
@@ -161,3 +173,39 @@ a:active {
     color: #f50511;
 }
 
+.discography{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    /*border-radius: 25px;*/
+    /*border: 2px solid #f50511;*/
+    /*padding: 20px;*/
+    /*outline: 0px;*/
+    /*border-spacing: 0px;*/
+    /*width: 200px;*/
+    /*height: 150px;*/
+}
+
+.discography h4{
+    text-align: center;
+    background-color: #f50511;
+    /*text-decoration: none;*/
+    color: #ffffff;
+    border-radius: 25px;
+    border: 2px solid #f50511;
+    /*display: block;*/
+    /*transition: .3s background-color;*/
+    /*margin-top: -20px;*/
+    /*margin: 0;*/
+}
+
+
+/*.discography h5{*/
+    /*text-align: center;*/
+    /*background-color: #f50511;*/
+    /*text-decoration: none;*/
+    /*color: #ffffff;*/
+    /*display: block;*/
+    /*transition: .3s background-color;*/
+/*}*/
