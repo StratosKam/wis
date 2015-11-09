@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-div#navBar {
+.navBar {
     margin: 0;
     padding: .3em 0 .3em 0;
     width: 100%;
@@ -17,15 +17,20 @@ div#navBar {
     text-align: center;
     padding: 0;
     margin: 0;
-    border-bottom: 1px solid #f50511;
+    border-bottom: 1px solid #d60511;
 }
 .navBar li {
     font-family: 'Oswald', sans-serif;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 40px;
     height: 40px;
-    border-bottom: 1px solid #888;
+    /*border-bottom: 1px solid #888;*/
+
+    /*background-color: #d60511;*/
+
+    /*color: black;*/
+    /*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
 }
 
 .navBar a {
@@ -36,19 +41,24 @@ div#navBar {
 }
 
 .navBar a:hover {
-    background-color: #f50511;
+    background-color: #d60511;
     color: #ffffff;
 }
 
 .navBar a.active {
-    background-color: #f50511;
+    background-color: #d60511;
     color: #ffffff;
     cursor: default;
+
+    /*color: black;*/
+    /*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
 }
 
 .navBar a:visited {
     /*background-color: #f50511;*/
     color: #ffffff;
+    /*color: black;*/
+    /*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
 }
 
 .navBar li {
@@ -73,7 +83,7 @@ h1{
 
 
 a:link {
-    color: #f50511;
+    color: #d60511;
 }
 
 a:visited {
@@ -101,6 +111,22 @@ a:active {
 }
 .right-div {
     margin-left: 80%;
+}
+
+.bioLeft{
+    float: left;
+    width: 70%;
+}
+.bioRight{
+    margin-left: 70%;
+}
+.bioLeft h1{
+    text-align: center;
+    background-color: #d60511;
+    color: black;
+    /*border-bottom: 1px solid #f50511;*/
+    font-size: 22px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .bioTable {
@@ -170,7 +196,7 @@ a:active {
 }
 
 .newsArticlePage h1{
-    color: #f50511;
+    color: #d60511;
 }
 
 .discography{
@@ -189,15 +215,20 @@ a:active {
 
 .discography h4{
     text-align: center;
-    background-color: #f50511;
+    background-color: #d60511;
     /*text-decoration: none;*/
-    color: #ffffff;
     border-radius: 25px;
-    border: 2px solid #f50511;
+    border: 2px solid #d60511;
     /*display: block;*/
     /*transition: .3s background-color;*/
     /*margin-top: -20px;*/
     /*margin: 0;*/
+    text-align: center;
+    background-color: #d60511;
+    color: black;
+    /*border-bottom: 1px solid #f50511;*/
+    font-size: 20px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 
