@@ -13,7 +13,6 @@
 
 .navBar ul {
     list-style: none;
-    /*background-color: #444;*/
     text-align: center;
     padding: 0;
     margin: 0;
@@ -25,12 +24,6 @@
     font-size: 1.1em;
     line-height: 40px;
     height: 40px;
-    /*border-bottom: 1px solid #888;*/
-
-    /*background-color: #d60511;*/
-
-    /*color: black;*/
-    /*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
 }
 
 .navBar a {
@@ -50,15 +43,10 @@
     color: #ffffff;
     cursor: default;
 
-    /*color: black;*/
-    /*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
 }
 
 .navBar a:visited {
-    /*background-color: #f50511;*/
     color: #ffffff;
-    /*color: black;*/
-    /*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
 }
 
 .navBar li {
@@ -98,12 +86,6 @@ a:active {
     color: #ffffff;
 }
 
-.column {
-    position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 25%;
-}
 
 .left-div {
     float: left;
@@ -113,21 +95,6 @@ a:active {
     margin-left: 80%;
 }
 
-.bioLeft{
-    float: left;
-    width: 70%;
-}
-.bioRight{
-    margin-left: 70%;
-}
-.bioLeft h1{
-    text-align: center;
-    background-color: #d60511;
-    color: black;
-    /*border-bottom: 1px solid #f50511;*/
-    font-size: 22px;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-}
 
 .bioTable {
     font-family: "Arial", Helvetica, sans-serif;
@@ -142,6 +109,9 @@ a:active {
      display: inline-block;
      vertical-align: top;
      margin: 5px;
+}
+.videoCell h1{
+    font-size: 22px;
 }
 .bandsGrid{
     width: 100%;
@@ -180,8 +150,6 @@ a:active {
 }
 
 .newsArticle{
-    /*border: 1px solid red;*/
-    /*padding: 225px;*/
     overflow: hidden;
 }
 .newsArticle a{
@@ -203,40 +171,27 @@ a:active {
     width: 100%;
     display: inline-block;
     text-align: center;
-    margin: 0 auto;
-    /*border-radius: 25px;*/
-    /*border: 2px solid #f50511;*/
-    /*padding: 20px;*/
-    /*outline: 0px;*/
-    /*border-spacing: 0px;*/
-    /*width: 200px;*/
-    /*height: 150px;*/
-}
+    margin: 0 auto;}
 
 .discography h4{
     text-align: center;
     background-color: #d60511;
-    /*text-decoration: none;*/
     border-radius: 25px;
     border: 2px solid #d60511;
-    /*display: block;*/
-    /*transition: .3s background-color;*/
-    /*margin-top: -20px;*/
-    /*margin: 0;*/
-    text-align: center;
-    background-color: #d60511;
     color: black;
-    /*border-bottom: 1px solid #f50511;*/
     font-size: 20px;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
+.bio h1{
+    text-align: center;
+    background-color: #d60511;
+    color: black;
+    font-size: 22px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
 
-/*.discography h5{*/
-    /*text-align: center;*/
-    /*background-color: #f50511;*/
-    /*text-decoration: none;*/
-    /*color: #ffffff;*/
-    /*display: block;*/
-    /*transition: .3s background-color;*/
-/*}*/
+.bio img {
+    float: right;
+    margin: 5px;
+}
