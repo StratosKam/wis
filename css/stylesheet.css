@@ -41,10 +41,6 @@
     cursor: default;
 }
 
-.navBar a:visited {
-    color: #ffffff;
-}
-
 body{
     width: 80%;
     margin: 0 auto;
@@ -107,9 +103,6 @@ a:active {
 }
 
 .rightHome {
-    /*margin-left: 80%;*/
-    /*float:right;*/
-    /*float: ;*/
     margin-left: 3%;
     min-height: 400px;
     text-align: center;
@@ -160,52 +153,57 @@ a:active {
     margin-left: 0;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+
 .recent{
     clear: right;
 }
+
 .grid {
     width: 100%;
     display: inline-block;
     text-align: center;
     margin: 0 auto;
 }
+.cell{
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
 
-.videoCell {
-     text-align: center;
+.video {
      width: 480px;
      min-height: 360px;
-     display: inline-block;
-     vertical-align: top;
      margin: 5px;
 }
 
-.videoCell h1{
-    font-size: 22px;
+.video h1{
+    font-size: 18px;
+    margin-bottom: 0;
 }
 
-.albumCell {
-    text-align: center;
+.album {
     width: 200px;
-    display: inline-block;
-    vertical-align: top;
     margin: 10px;
 }
-.albumCell ol{
+.album ol{
     text-align: left;
 }
 
-.bandCell{
-    text-align: center;
-    display: inline-block;
-    vertical-align: top;
+.album h2{
+    font-size: 14px;
+    color: #d60511;
+}
+
+.bands {
     margin: 5px;
 }
-.bandCell img{
+.bands img{
     width:  300px;
     height: 300px;
 }
-.bandCell h1{
+.bands h1{
     font-size: 14pt;
+    margin-bottom: 0;
 }
 
 .newsArticle{
@@ -244,13 +242,25 @@ a:active {
     width: 100%;
 }
 
+.band img{
+    margin: 5px;
+    float: right;
+}
+
+.band h1{
+    display: inline;
+    font-size: inherit;
+    margin-top: -5px;
+    padding: 0;
+}
+
 .discography{
     width: 100%;
     display: inline-block;
     text-align: center;
     margin: 0 auto;}
 
-.discography h4{
+.discography h3{
     text-align: center;
     background-color: #d60511;
     border-radius: 25px;
