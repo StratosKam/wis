@@ -22,6 +22,15 @@
     display: inline-block;
     margin-right: -4px;
 }
+.navBar img {
+    /*margin: 0;*/
+    margin-bottom: -12%;
+    padding: 0;
+
+    height: 50px;
+    width: 120px;
+    /*background: #d60511;*/
+}
 
 .navBar a {
     text-decoration: none;
