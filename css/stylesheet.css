@@ -239,7 +239,7 @@ a:active {
 }
 .newsArticlePage{
     text-align: center;
-    max-width: 720px;
+    /*max-width: 900px;*/
 }
 .newsArticlePage h1{
     color: #d60511;
