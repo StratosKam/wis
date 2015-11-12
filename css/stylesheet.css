@@ -107,9 +107,14 @@ a:active {
 }
 
 .rightHome {
-    margin-left: 80%;
+    /*margin-left: 80%;*/
+    /*float:right;*/
+    /*float: ;*/
+    margin-left: 3%;
     min-height: 400px;
     text-align: center;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .usefulLinks{
@@ -155,7 +160,9 @@ a:active {
     margin-left: 0;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
-
+.recent{
+    clear: right;
+}
 .grid {
     width: 100%;
     display: inline-block;
