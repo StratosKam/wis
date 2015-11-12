@@ -22,6 +22,7 @@
     display: inline-block;
     margin-right: -4px;
 }
+
 .navBar img {
     margin-bottom: -16%;
     padding: 0;
@@ -47,7 +48,7 @@
     cursor: default;
 }
 
-body{
+body {
     width: 80%;
     margin: 0 auto;
     max-width: 1200px;
@@ -56,7 +57,7 @@ body{
     font-family: "Tahoma", Geneva, sans-serif;
 }
 
-h1{
+h1 {
     color: #ffffff;
 }
 
@@ -77,11 +78,11 @@ a:active {
     color: #ffffff;
 }
 
-
-.home{
+.home {
     display: inline-block;
 }
-.home h2{
+
+.home h2 {
     font-size: 18px;
     border-bottom: solid 1px #d60511;
     display: block;
@@ -90,32 +91,60 @@ a:active {
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
+/*.leftHome {*/
+    /*float: left;*/
+    /*width: 75%;*/
+    /*min-height: 400px;*/
+/*}*/
+
+/*.leftHome img {*/
+    /*float: left;*/
+    /*margin-right: 5%;*/
+    /*margin-left: 5%;*/
+/*}*/
+
+/*.leftHome p {*/
+    /*font-size: 18px;*/
+    /*position: relative;*/
+    /*vertical-align: middle;*/
+/*}*/
+
+/*.rightHome {*/
+    /*margin-left: 3%;*/
+    /*min-height: 400px;*/
+    /*text-align: center;*/
+    /*display: inline-block;*/
+    /*vertical-align: top;*/
+/*}*/
+
 .leftHome {
-    float: left;
-    width: 75%;
-    min-height: 400px;
-}
-.leftHome img{
-    float: left;
-    margin-right: 5%;
-    margin-left: 5%;
+float: right;
+width: 75%;
+min-height: 400px;
 }
 
-.leftHome p{
-    font-size: 18px;
-    position: relative;
-    vertical-align: middle;
+.leftHome img {
+float: left;
+margin-right: 5%;
+/*margin-left: 3%;*/
+}
+
+.leftHome p {
+font-size: 18px;
+position: relative;
+vertical-align: middle;
 }
 
 .rightHome {
-    margin-left: 3%;
-    min-height: 400px;
-    text-align: center;
-    display: inline-block;
-    vertical-align: top;
+/*margin-left: 3%;*/
+min-height: 400px;
+text-align: center;
+display: inline-block;
+vertical-align: top;
 }
 
-.usefulLinks{
+
+.usefulLinks {
     width: inherit;
 }
 
@@ -126,6 +155,7 @@ a:active {
     padding: 0;
     margin: 0;
 }
+
 .usefulLinks a {
     text-decoration: none;
     color: black;
@@ -159,7 +189,7 @@ a:active {
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
-.recent{
+.recent {
     clear: right;
 }
 
@@ -169,19 +199,20 @@ a:active {
     text-align: center;
     margin: 0 auto;
 }
-.cell{
+
+.cell {
     text-align: center;
     display: inline-block;
     vertical-align: top;
 }
 
 .video {
-     width: 480px;
-     min-height: 360px;
-     margin: 5px;
+    width: 480px;
+    min-height: 360px;
+    margin: 5px;
 }
 
-.video h1{
+.video h1 {
     font-size: 18px;
     margin-bottom: 0;
 }
@@ -190,14 +221,16 @@ a:active {
     width: 200px;
     margin: 10px;
 }
-.album ol{
+
+.album ol {
     text-align: left;
 }
+
 /*.album li{*/
-    /*font-style: italic;*/
+/*font-style: italic;*/
 /*}*/
 
-.album h2{
+.album h2 {
     font-size: 16px;
     /*color: #d60511;*/
     color: white;
@@ -207,71 +240,81 @@ a:active {
 .bands {
     margin: 5px;
 }
-.bands img{
-    width:  300px;
+
+.bands img {
+    width: 300px;
     height: 300px;
 }
-.bands h1{
+
+.bands h1 {
     font-size: 14pt;
     margin-bottom: 0;
 }
 
-.newsArticle{
+.newsArticle {
     overflow: hidden;
 }
-.newsArticle a{
+
+.newsArticle a {
     text-decoration: none;
 }
 
-.newsArticle img{
-    width:  220px;
+.newsArticle img {
+    width: 220px;
     height: 170px;
     margin-right: 15px;
     float: left;
 }
+
 .centerArticlePage {
     width: 75%;
-    margin-left: auto ;
-    margin-right: auto ;
+    margin-left: auto;
+    margin-right: auto;
 }
-.newsArticlePage{
+
+.newsArticlePage {
     text-align: center;
     /*max-width: 900px;*/
 }
-.newsArticlePage h1{
+
+.newsArticlePage h1 {
     color: #d60511;
 }
-.newsArticlePage p{
+
+.newsArticlePage p {
     text-align: left;
 }
-.newsArticlePage img{
+
+.newsArticlePage img {
     width: 100%;
-}
-.newsArticlePage iframe{
-    height: 480px;
-    width: 100%;
-    border:none;
 }
 
-.band img{
+.newsArticlePage iframe {
+    height: 480px;
+    width: 100%;
+    border: none;
+}
+
+.band img {
     margin: 5px;
     float: right;
 }
 
-.band h1{
+.band h1 {
     display: inline;
     font-size: inherit;
     margin-top: -5px;
     padding: 0;
 }
 
-.discography{
+.discography {
     width: 100%;
     display: inline-block;
     text-align: center;
-    margin: 0 auto;}
+    margin: 0 auto;
+}
 
-.discography h3{
+.discography h3 {
     text-align: center;
     background-color: #d60511;
     border-radius: 25px;
@@ -281,7 +324,7 @@ a:active {
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
-.bio h1{
+.bio h1 {
     text-align: center;
     background-color: #d60511;
     color: black;
