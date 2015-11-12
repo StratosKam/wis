@@ -91,58 +91,31 @@ a:active {
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
-/*.leftHome {*/
-    /*float: left;*/
-    /*width: 75%;*/
-    /*min-height: 400px;*/
-/*}*/
-
-/*.leftHome img {*/
-    /*float: left;*/
-    /*margin-right: 5%;*/
-    /*margin-left: 5%;*/
-/*}*/
-
-/*.leftHome p {*/
-    /*font-size: 18px;*/
-    /*position: relative;*/
-    /*vertical-align: middle;*/
-/*}*/
-
-/*.rightHome {*/
-    /*margin-left: 3%;*/
-    /*min-height: 400px;*/
-    /*text-align: center;*/
-    /*display: inline-block;*/
-    /*vertical-align: top;*/
-/*}*/
-
 .leftHome {
-float: right;
-width: 75%;
-min-height: 400px;
+    float: left;
+    width: 75%;
+    min-height: 400px;
 }
 
 .leftHome img {
-float: left;
-margin-right: 5%;
-/*margin-left: 3%;*/
+    float: left;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .leftHome p {
-font-size: 18px;
-position: relative;
-vertical-align: middle;
+    font-size: 18px;
+    position: relative;
+    vertical-align: middle;
 }
 
 .rightHome {
-/*margin-left: 3%;*/
-min-height: 400px;
-text-align: center;
-display: inline-block;
-vertical-align: top;
+    margin-left: 3%;
+    min-height: 400px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
 }
-
 
 .usefulLinks {
     width: inherit;
