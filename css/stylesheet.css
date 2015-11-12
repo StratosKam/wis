@@ -77,7 +77,6 @@ a:active {
 }
 .home h2{
     font-size: 18px;
-    text-decoration: double;
     border-bottom: solid 1px #d60511;
     display: block;
     text-align: center;
@@ -188,10 +187,15 @@ a:active {
 .album ol{
     text-align: left;
 }
+/*.album li{*/
+    /*font-style: italic;*/
+/*}*/
 
 .album h2{
-    font-size: 14px;
-    color: #d60511;
+    font-size: 16px;
+    /*color: #d60511;*/
+    color: white;
+    font-style: oblique;
 }
 
 .bands {
